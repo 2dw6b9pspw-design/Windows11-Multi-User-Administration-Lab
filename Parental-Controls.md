@@ -1,5 +1,5 @@
 # Parental-Controls
-**Lab:** Windows 11 Multi-User Administration & Security Hardening  
+**Lab:** Windows 11 Multi-User Administration
 **Section:** Child Account — Parental Controls  
 **Platform:** Windows 11 Pro 
 
