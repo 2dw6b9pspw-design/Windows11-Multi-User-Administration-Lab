@@ -14,7 +14,6 @@ All actions are documented as internal IT notes rather than a tutorial.
   - Child / Restricted User account
 - **Tools Used:**
   - Local Users and Groups
-  - File Explorer (NTFS permissions)
   - Local Security Policy (`secpol.msc`)
   - Event Viewer
 
