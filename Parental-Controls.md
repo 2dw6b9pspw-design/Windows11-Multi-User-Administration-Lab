@@ -2,12 +2,12 @@
 **Lab:** Windows 11 Multi-User Administration & Security Hardening  
 **Section:** Child Account — Parental Controls  
 **Device:** Windows 11 Pro (Device name: ELEVEN)  
-**Child account:** Emma
+**Child account:** Child-User
 
 ---
 
 ## 1) Purpose
-Parental controls were configured to enforce age-appropriate access, restrict unsafe content and applications, limit screen time, and require permission for purchases. These settings mimic real-world access control and policy enforcement practices for shared or restricted user environments.
+Parental controls were configured to enforce age-appropriate access, restrict unsafe content and applications, limit screen time, and require permission for purchases. These settings mirror access control and policy enforcement practices used in shared or restricted user environments.
 
 ---
 
@@ -15,7 +15,7 @@ Parental controls were configured to enforce age-appropriate access, restrict un
 - **Account type:** Child (Standard user)  
 - **Management platform:** Microsoft Family Safety  
 - **Admin role:** Local administrator responsible for configuration and validation  
-- **Policy scope:** Settings apply across all of Emma’s activities
+- **Policy scope:** Settings apply across all activities of the child account
 
 ---
 
@@ -34,7 +34,7 @@ Parental controls were configured to enforce age-appropriate access, restrict un
 | Saturday   | 2 hours    | 07:00 AM – 08:00 PM    |
 
 **Behavior:**  
-- Device access is restricted to the defined time windows.  
+- Device access is restricted to defined time windows.  
 - Once the daily limit is reached, further usage is blocked.
 
 ---
@@ -82,7 +82,7 @@ Parental controls were configured to enforce age-appropriate access, restrict un
 - **Configured value:** Enabled
 
 **Behavior:**  
-- Weekly activity usage reports are sent to organizers and the child.
+- Weekly activity usage reports are sent to organizers and the child account.
 
 ### 6.2 On-Demand Activity Email
 - **Setting:** Activity reporting via email  
@@ -93,61 +93,34 @@ Parental controls were configured to enforce age-appropriate access, restrict un
 ## 7) Apps & Games Restrictions
 
 ### 7.1 Enforcement Model
-Application access is restricted by explicitly blocking all applications except those that are critical for usage or explicitly permitted.
+Application access is restricted by explicitly blocking all non-approved applications.
 
 ### 7.2 Allowed Applications
-- **Microsoft Edge** (filtered web browsing)
-- **Roblox game client** (only game permitted)
-
-These applications are visible under “Installed apps, features, and games” with unrestricted access. Edge is permitted to support web safety and filtered browsing. Roblox is permitted for gameplay.
+- **Microsoft Edge** — filtered web browsing  
+- **Roblox game client** — permitted game
 
 ### 7.3 Blocked Applications
-All other listed applications are explicitly set to blocked status, including but not limited to:
-- Microsoft Store
-- Click to Do
-- Dev Home
-- DTS Audio Processing
-- LG Monitor App Installer
-- Microsoft 365 Copilot
-- Microsoft Clipchamp
-- Microsoft Photos
-- Microsoft Sticky Notes
-- Microsoft Teams
-- Microsoft To Do
-- MSN Weather
-- News
-- Outlook for Windows
-- Paint
-- Phone Link
-- Power Automate
-- Quick Assist
+All non-approved applications are explicitly blocked, including system apps, productivity tools, and the Microsoft Store. This prevents unapproved software usage and new application installations.
 
-**Purpose:** Only approved applications are usable; all others are blocked to reduce risk and unapproved access.
-
-### 7.4 Application Risk Mitigation
-While Roblox is permitted, the following additional controls are in place to mitigate risks:
-- Age rating enforcement filters in-game content.
-- Ask to Buy prevents unauthorized purchases.
-- Screen time limits apply.
-- Activity reporting provides usage visibility.
+### 7.4 Risk Mitigation
+Permitted applications are further controlled through age rating enforcement, screen time limits, purchase approval, and activity reporting.
 
 ---
 
 ## 8) Validation / Evidence
-**Screen Time:** Verified schedule reflects daily limits and availability windows.  
-**Web Safety:** Confirmed Unsafe content filtering and SafeSearch enforcement.  
-**Apps & Games:**  
-- Roblox and Edge launch successfully under the child account.  
-- All other applications show “Blocked.”  
-- Microsoft Store access is blocked, preventing new installs.
+- **Screen Time:** Verified daily limits and availability windows.  
+- **Web Safety:** Confirmed unsafe content filtering and SafeSearch enforcement.  
+- **Apps & Games:**  
+  - Edge and Roblox launch successfully under the child account.  
+  - All other applications display a blocked status.  
+  - Microsoft Store access is blocked, preventing new installs.
 
-**Evidence:**  
-- Screenshots captured showing settings screens and blocked app statuses.
+**Evidence:** Screenshots captured to verify configuration and enforcement.
 
 ---
 
 ## 9) Issues / Notes
-- Microsoft Family Safety does not expose a single “allow-only” toggle; allow-listing is achieved through explicit blocking of all other applications and usage limits.
+- Microsoft Family Safety does not provide a single allow-only toggle; allow-listing is achieved through explicit blocking of non-approved applications.
 
 ---
 
