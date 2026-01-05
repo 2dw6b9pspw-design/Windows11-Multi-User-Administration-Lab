@@ -2,7 +2,7 @@
 
 ## What This Lab Is
 A practical Windows 11 Pro lab that simulates real Tier 1 IT support and entry-level security tasks.  
-The lab focuses on configuring local user accounts, enforcing least privilege, and validating access using NTFS permissions and basic auditing.  
+The lab focuses on configuring local user accounts, enforcing least privilege, and basic auditing.  
 All actions are documented as internal IT notes rather than a tutorial.
 
 ## Environment
