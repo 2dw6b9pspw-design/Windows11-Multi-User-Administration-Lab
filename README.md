@@ -30,6 +30,5 @@ All actions are documented as internal IT notes rather than a tutorial.
 ## Security Concepts Applied
 - Least Privilege
 - Account Separation
-- Access Control (NTFS permissions)
 - Auditing and Accountability
 - Basic Incident Response Readiness
