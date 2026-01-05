@@ -42,3 +42,6 @@ All actions are documented as internal IT notes rather than a tutorial.
 - Account Separation
 - Auditing and Accountability
 - Basic Incident Response Readiness
+
+This lab intentionally focuses on local account administration and security controls and does not include Active Directory, Group Policy, or enterprise tooling.
+
