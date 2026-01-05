@@ -1,7 +1,7 @@
 # Local Security Policy Configuration
 
 ## Objective
-Apply and document local password and account lockout policies on a Windows 11 Pro system to reduce brute-force and credential abuse risk in a multi-user environment.
+Apply and document local password and account lockout policies on a Windows 11 Pro system to reduce brute-force and unauthorized access risk in a multi-user environment.
 
 ## Password Policy
 - Password complexity: Enabled
