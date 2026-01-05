@@ -17,11 +17,11 @@ Apply and document local password and account lockout policies on a Windows 11 P
 - Allow administrator account lockout: Disabled
 
 ## Rationale
-- Long, complex passwords reduce guessing and credential stuffing risk.
-- Password history prevents immediate reuse.
-- Lockout policies limit online brute-force attempts.
-- Administrator lockout disabled to prevent accidental denial of service.
-- Forced rotation avoided in favor of strong passwords unless compromise occurs.
+
+- Enforcing password complexity and length reduces the risk of password guessing and reuse.
+- Password history prevents immediate reuse of compromised credentials.
+- Account lockout limits repeated unauthorized login attempts.
+- Administrator account lockout is disabled to avoid accidental administrative denial of service.
 
 ## Validation
 - Verified settings in Local Security Policy (`secpol.msc`).
